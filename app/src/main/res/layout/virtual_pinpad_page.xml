@@ -1,0 +1,135 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="450dp"
+    android:layout_height="350dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="6"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/pinTextView"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:clickable="false"
+            android:focusable="false"
+            android:background="@drawable/pin_backgroud"
+            android:text="ENTRY PIN"
+            android:textSize="36sp"
+            android:gravity="right"
+            android:textAlignment="gravity"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1">
+
+            <Button
+                style="@style/pin_button"
+                android:id="@+id/pin1"
+                android:text="1"/>
+            <Button
+                style="@style/pin_button"
+                android:id="@+id/pin2"
+                android:text="2"/>
+            <Button
+                style="@style/pin_button"
+                android:id="@+id/pin3"
+                android:text="3"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1">
+
+            <Button
+                style="@style/pin_button"
+                android:id="@+id/pin4"
+                android:text="4"/>
+            <Button
+                style="@style/pin_button"
+                android:id="@+id/pin5"
+                android:text="5"/>
+            <Button
+                style="@style/pin_button"
+                android:id="@+id/pin6"
+                android:text="6"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1">
+
+            <Button
+                style="@style/pin_button"
+                android:id="@+id/pin7"
+                android:text="7"/>
+            <Button
+                style="@style/pin_button"
+                android:id="@+id/pin8"
+                android:text="8"/>
+            <Button
+                style="@style/pin_button"
+                android:id="@+id/pin9"
+                android:text="9"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1">
+
+            <Button
+                style="@style/pin_button"
+                android:id="@+id/pinNullLeft"
+                android:text="*"/>
+            <Button
+                style="@style/pin_button"
+                android:id="@+id/pin0"
+                android:text="0"/>
+            <Button
+                style="@style/pin_button"
+                android:id="@+id/pinNullRight"
+                android:text="#"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1">
+
+            <Button
+                style="@style/pin_button"
+                android:id="@+id/pinRed"
+                android:background="@color/colorred"
+                android:text="X"/>
+
+            <Button
+                style="@style/pin_button"
+                android:id="@+id/pinYellow"
+                android:background="@color/colorbrown"
+                android:text="&#060;-"/>
+
+            <Button
+                style="@style/pin_button"
+                android:id="@+id/pinGreen"
+                android:background="@color/colorgrey"
+                android:text="O"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

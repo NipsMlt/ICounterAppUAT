@@ -1,0 +1,528 @@
+<resources>
+    <string name="app_name">RTA</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="progress_title">Please wait</string>
+    <string name="progress_detail">Downloading assets...</string>
+
+    <string name="transition_name_title" translatable="false">title</string>
+    <string name="transition_name_cover" translatable="false">cover</string>
+    <string name="transition_name_time" translatable="false">time</string>
+    <string name="transition_name_duration" translatable="false">duration</string>
+    <string name="transition_name_progress" translatable="false">progress</string>
+    <string name="transition_name_fab" translatable="false">fab</string>
+    <string name="play_vector_path" translatable="false">M6,5 l12,7 l0,0 l-12,0z M6,12 l12,0 l0,0 l-12,7z</string>
+    <string name="pause_vector_path" translatable="false">M5,6 l14,0 l0,4 l-14,0z M5,14 l14,0 l0,4 l-14,0z</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="interactive_animation">Interactive animation</string>
+    <string name="auto_visibility">Auto visibility</string>
+    <string name="animation_type">Animation type</string>
+    <string name="orientation">Orientation</string>
+    <string name="customize">Customize</string>
+    <string name="home">Home</string>
+    <string name="right_to_left_mode">Right to left mode</string>
+    <string name="OfferstxtTitle">Spring Sale Upto 50% Off @ Dubai Mall</string>
+    <string name="OfferstxtDesc">Stop by and shop our spring sale an take upto 50% off select styles</string>
+    <string name="DearCustomer">Dear Customer,before contacting us please click here to finda list of frequently asked question</string>
+    <string name="WeAlways">We always look forward to serve you and always ready to answer all your inquiries</string>
+    <string name="Phoneno">+971 (0)2 681 7493</string>
+    <string name="PObox">P.O. Box 47388, Abu Dhabi, U.A.E.</string>
+    <string name="Email">  support@mlt-uae.ae</string>
+
+    <string name="Fax">Fax</string>
+    <string name="fax">+971 (0)2 681 7499</string>
+    <string name="mainstation">Al Reem Island </string>
+    <string name="Area">Office # 5311 and 5312, Addax Tower, Al-Reem Island</string>
+    <string name="Coordinates">24.4989° N 54.4031° E</string>
+    <string name="Googlemaplink"><u>Click here</u></string>
+    <string name="name">Name*</string>
+    <string name="email">Email*</string>
+    <string name="mobileno">Mobile No*</string>
+    <string name="issueoccured">Issue Type</string>
+    <string name="message">Message*</string>
+    <string name="google_maps_key">	AIzaSyB0ZCLT-QKhe5S4gdIP5h9MAE9x6w33WuY</string>
+    <string name="loading">Loading...</string>
+    <string name="file_not_found">File not found</string>
+    <string name="viewmore"><u>View More</u></string>
+    <string name="hidekeyboard">Hide Keyboard</string>
+    <string name="deststart">Destination Start : </string>
+    <string name="destend">Destination End : </string>
+    <string name="deststartaddress">Destination Start Address:   </string>
+    <string name="destendaddress">Destination End Address:   </string>
+    <string name="duration">Trip Duration : </string>
+    <string name="Country">Country : </string>
+    <string name="fare">Fare : </string>
+    <string name="startfare">Start Fare : </string>
+    <string name="startdatetime">Start Date and Time : </string>
+    <string name="enddatetime">End Date and Time : </string>
+    <!--Time Fragment-->
+    <string name="City">City : </string>
+    <string name="Abbreviations">Abbreviations :  </string>
+    <string name="Capital">Capital : </string>
+    <string name="TimeZone">Time Zone : </string>
+    <string name="DialCode">Dial Code : </string>
+    <string name="CurrentTime">Current Time : </string>
+    <string name="CurrentDate">Current Date : </string>
+
+    <string-array name="issues_array">
+        <item>Driver Details</item>
+        <item>Trip Details</item>
+        <item>About us</item>
+        <item>Happy Meter</item>
+        <item>RTA services</item>
+        <item>DTC services</item>
+        <item>Other government Services</item>
+        <item>Utilities and other services</item>
+        <item>E-Commerce online shop</item>
+        <item>Classified Advertisement</item>
+        <item>Offers</item>
+        <item>Banners</item>
+        <item>About Us</item>
+        <item>News</item>
+        <item>Maps</item>
+        <item>Weather</item>
+        <item>Entertainment</item>
+    </string-array>
+
+    <string-array name="animation_type">
+        <item>None</item>
+        <item>Color</item>
+        <item>Scale</item>
+        <item>Worm</item>
+        <item>Slide</item>
+        <item>Fill</item>
+        <item>Thin Worm</item>
+        <item>Drop</item>
+        <item>Swap</item>
+    </string-array>
+
+    <string-array name="orientation">
+        <item>Horizontal</item>
+        <item>Vertical</item>
+    </string-array>
+
+    <string-array name="rtl">
+        <item>On</item>
+        <item>Off</item>
+        <item>Auto</item>
+    </string-array>
+
+    <string-array name="items">
+        <item>Devices</item>
+        <item>Request</item>
+        <item>Notifications</item>
+        <item>Account</item>
+    </string-array>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="title_activity_sample">SampleActivity</string>
+    <string name="date">Date goes here!</string>
+    <string name="title">Title goes here!</string>
+    <string name="description_zoom_touch_close">Expanded image (touch to close)</string>
+
+    <!--Regulatory-->
+    <string name="mlt">Multi Level Technology</string>
+    <string name="modelno">Model xCL_E200CP</string>
+    <string name="fccid">FCC ID:MQT-E200CP</string>
+    <string name="pci">PCI 5.0:4-40217</string>
+    <string name="europe">Europe</string>
+    <string name="traid">TRA ID DA65900/17</string>
+    <string name="ta">TA ER60424/18</string>
+    <string name="weee">WEEE Verified</string>
+    <string name="rohs">RoHS Compliance</string>
+    <string name="svhc">SVHC Tested</string>
+    <string name="mltaboutus1"><b>Multi Level Technology “MLT”</b> is a subsidiary of <b>Al Sayegh Group</b> specialized in &amp; providing Payment Solutions. <b>MLT</b> is based in UAE, and it provides its customers withend-to-end payment solutions, spanning from acquiring, payment processing to process automation and back-end services such as automated segregation, reconciliation, posting, ERP integration and more customized.</string>
+    <string name="mltaboutus2">Our solutions can be tailored for any sized business and can either be created from the ground up, or be integrated seamlessly with existing infrastructure. Additionally,<b>MLT</b>can provide its customers with turnkey integrated solution.</string>
+    <string name="mltaboutus3"><b>MLT</b> with coordination of <b>Network Intelligent Payment Solution “NIPS”</b>, a sister company of <b>MLT</b>, provides tailor-made developed platforms to execute services and facilitate payment for all types of payment channels and their associated support infrastructure.</string>
+
+    <!--Happy Screen-->
+    <string name="happyscreenthankyoutext">Thank you for helping make Dubai the happiest city on earth</string>
+    <string name="happyscreenfindoutmore">FIND OUT MORE ON</string>
+    <string name="happyscreenurl"><u>happinessagenda.ae</u></string>
+
+    <!--RTA Text Common For All Screens -->
+    <string name="Home">ഹോം</string>
+    <string name="Info">വിവരങ്ങൾ</string>
+    <string name="Back">തിരികെ</string>
+
+    <!--<string name="RTAService">(RTA)للاستعلام عن ودفع المخالفات المرورية</string>-->
+    <string name="RTAService">ആർടിഎ സേവനം</string>
+    <string name="CompletePayment">പേയ്മെന്റ് പൂത്തിയാക്കുക</string>
+    <string name="CardPayment">കാർഡ് പേയ്മെന്റ്</string>
+    <string name="RTACertificates">സർട്ടിഫിക്കറ്റുകൾ</string>
+    <string name="Selectanyoneoption">ഏതെങ്കിലും ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക</string>
+    <string name="FineInquiryandPayment">ഫൈൻ അന്വേഷണവും പേയ്‌മെന്റും</string>
+    <string name="FineInquiryandPayments">ഫൈൻ അന്വേഷണവും പേയ്‌മെന്റും</string>
+    <string name="VehicleRegistrationServices">വാഹന രജിസ്ട്രേഷൻ സേവനങ്ങൾ</string>
+    <string name="VehicleRegistrationRenewal">വാഹന രജിസ്ട്രേഷൻ പുതുക്കൽ</string>
+    <string name="VehicleRegistrationLossDamage">വാഹന കേടായത്/നഷ്ടപെട്ടത്</string>
+    <string name="DrivingLicenseServices">ഡ്രൈവിംഗ്  ലൈസൻസ് സേവനങ്ങൾ</string>
+    <string name="DrivingLicenseRenewal">ഡ്രൈവിംഗ് ലൈസൻസ് പുതുക്കൽ</string>
+    <string name="DrivingLicenseLossDamage">ഡ്രൈവിംഗ് നഷ്ടപ്പെട്ടു/കേടുപാടായത്</string>
+    <string name="ParkingServices">പാർക്കിംഗ് സേവനങ്ങൾ</string>
+    <string name="parkingServices">പാർക്കിംഗ് സേവനങ്ങൾ</string>
+    <string name="PrintingCertificate">സർട്ടിഫിക്കറ്റ് അച്ചടി</string>
+    <string name="Newseasonalcard">പുതിയ സീസണൽ കാർഡ്</string>
+    <string name="Seasonalcardrennewal">സീസണൽ കാർഡ്  പുതുക്കൽ</string>
+    <string name="seasonalparkingcard">സീസണൽ പാർക്കിംഗ് കാർഡ്</string>
+    <string name="seasonalparkingcardrenewal">സീസണൽ പാർക്കിംഗ് കാർഡ് പുതുക്കൽ</string>
+    <string name="ApplicantName">അപേക്ഷകന്റെ പേര്</string>
+    <string name="EnterCardNumber">കാർഡ് നമ്പർ</string>
+    <string name="PleaseEnteryourCVV">ദയവായി നിങ്ങളുടെ സിവിവി നൽകുക</string>
+    <string name="CardType">കാർഡ് ടൈപ്പ്</string>
+    <string name="CardPeriod">കാർഡ് കാലയളവ്</string>
+    <string name="MobileNumber">മൊബൈൽ നമ്പർ</string>
+    <string name="ActivationDate">ആക്ടിവേഷൻ തീയതി</string>
+    <string name="TrafficFileNumber">ട്ട്രാഫിക് നമ്പർ</string>
+    <string name="DrivingLicense">ഡ്രൈവിങ് ലൈസൻസ്</string>
+    <string name="PlateNumber">പ്ലേറ്റ് നമ്പർة</string>
+    <string name="FineNumber">ഫൈൻ നമ്പർ</string>
+    <string name="FinesByTrafficFileNo">ട്രാഫിക് നമ്പറിന്റെ ഫൈനുകൾ</string>
+    <string name="FinesByPlateNo">പ്ലേറ്റ്  നമ്പറിന്റെ ഫൈനുകൾ</string>
+    <string name="FinesByDrivingLicense">ഡ്രൈവിംഗ് ലൈസെൻസിലെ ഫൈനുകൾ</string>
+    <string name="FinesByFineNumber">ഫൈൻ നമ്പർ പ്രകാരം</string>
+    <string name="LicenseNo">ലൈസൻസ് നമ്പർ</string>
+    <string name="LicenseSource">ലൈസൻസ് ഉറവിടം</string>
+    <string name="Placeofissue">ലൈസൻസ് ഉറവിടം</string>
+    <string name="BirthYear">ജന്മ വർഷം</string>
+    <string name="TicketYear">ടിക്കറ്റ് വർഷം</string>
+    <string name="Plateno">പ്ലേറ്റ് നമ്പർ</string>
+    <string name="Platecode">പ്ലേറ്റ് കോഡ്</string>
+    <string name="Platecategory">പ്ലേറ്റ് വിഭാഗം</string>
+    <string name="ReplacementReason">മാറ്റുന്നതിനുള്ള കാരണം</string>
+    <string name="Platetype">പ്ലേറ്റ് വിഭാഗം</string>
+    <string name="Fineno">പിഴ നമ്പർ</string>
+    <string name="BeneficiaryCode">ബെനിഫിഷ്യറി കോഡ് </string>
+    <string name="Search">തിരയുക</string>
+    <string name="Continue">തുടരുക</string>
+    <string name="Submit">സമർപ്പിക്കുക</string>
+    <string name="AddVehicle">വാഹനം ചേർക്കുക</string>
+    <string name="TicketNumber">ടിക്കറ്റ് നമ്പർ</string>
+    <string name="DrivingLicenseInformation">ഡ്രൈവിംഗ് ലൈസൻസ് വിവരങ്ങൾ</string>
+    <string name="FineInformation">പിഴ വിശദാംശങ്ങൾ</string>
+    <string name="Date">തീയതി</string>
+    <string name="FineAmount">പിഴ തുക</string>
+    <string name="Penalty">പിഴ</string>
+    <string name="KnowledgeFee">നോളജ്  ഫീ</string>
+    <string name="Expirydate">കാലാവധി തീയതി</string>
+    <string name="Total">മൊത്തം</string>
+    <string name="Details">വിശദാംശങ്ങൾ</string>
+    <string name="UnPayableTickets">പിഴയടക്കേണ്ടാത്ത ടിക്കറ്റുകൾ</string>
+    <string name="FineCount">ആകെ പിഴകളുടെ എണ്ണം:</string>
+    <string name="BlackPointsCount">ബ്ലാക്ക് പോയ്ന്റ്സ് എണ്ണം:\u0020</string>
+    <string name="SelectedFine">തിരഞ്ഞെടുത്ത പിഴ:\u0020</string>
+    <string name="fineAmount">പിഴ തുക:\u0020</string>
+    <string name="SelectedFineAmount">തിരഞ്ഞെടുത്ത മൊത്തം പിഴകളുടെ തുക:\u0020</string>
+    <string name="FineSource">പിഴ ഉറവിടം</string>
+    <string name="Time">സമയം</string>
+    <string name="VehicleSpeed">വാഹന വേഗത</string>
+    <string name="TotalAmount">മൊത്തം തുക</string>
+    <string name="DueAmount">അടയ്ക്കേണ്ട തുക</string>
+    <string name="Amount">തുക</string>
+    <string name="ServiceCharge">സർവീസ് ചാർജ്</string>
+    <string name="FineYear">പിഴയുടെ വർഷം</string>
+    <string name="Violations">ലംഘനങ്ങൾ</string>
+    <string name="FineStatus">പിഴയുടെ സ്റ്റാറ്റസ്</string>
+    <string name="PlateSource">പ്ലേറ്റ് ഉറവിടം</string>
+    <string name="ContactDetails">തപാൽ വിശദാംശങ്ങൾ</string>
+    <string name="EnteryourEmailAddressor">ഇമെയിൽ ഐ.ഡി അടിക്കുക</string>
+    <string name="EnteryourEmailAddress">ഇമെയിൽ ഐ.ഡി അടിക്കുക</string>
+    <string name="EnteryourAddress">Enter your Address </string>
+    <string name="EnteryourMobileNumber">മൊബൈൽ നമ്പർ</string>
+    <string name="getdigitalpass">ഇമെയിൽ വിലാസവും മൊബൈൽ നമ്പറും നൽകുക</string>
+    <string name="getreceipt">രസീത് സ്വീകരിക്കുന്നതിന് ഇമെയിൽ വിലാസം നൽകുക</string>
+    <string name="getcustomerdetailstext">ദയവായി ഒരു സാധുവായ ഇമെയിൽ വിലാസവും ഫോൺ നമ്പറും നൽകുക</string>
+    <string name="RTAParkingFines">RTA (Parking Fines) FINE NO. 12345</string>
+    <string name="SalikFines">Salik FINE NO. 45678</string>
+    <string name="SharjahParkingFines">Sharjah (Parking Fines) FINE NO. 09123</string>
+    <string name="PCCard">കാർഡ്</string>
+    <string name="PCDirectDebit">നേരിട്ടുള്ള ഡെബിറ്റ്</string>
+    <string name="PCEasyPaymentPlan">എളുപ്പ പേയ്മെന്റ് പ്ലാൻ</string>
+    <string name="PCPaymentVoucher">പേയ്മെന്റ് പ്ലാൻ</string>
+    <string name="PaymentCategory">പേയ്മെന്റ് വിഭാഗം</string>
+    <string name="PaymentConfirmation">പേയ്മെന്റ് സ്ഥിരീകരണം</string>
+    <string name="Paynow">ഇപ്പോൾ പണമടക്കാൻ</string>
+    <string name="YourPaymentisbeingprocessed">നിങ്ങളുടെ പേയ്മെന്റ് പ്രക്രിയയിലാണ്</string>
+    <string name="Pleaseswipeyourcard">നിങ്ങളുടെ കാർഡ് സ്വൈപ്പുചെയ്യുക</string>
+    <string name="ProceedToPayment">പണം അടയ്ക്കുവാ൯ തുടരുക</string>
+    <string name="Description">വിവരണം</string>
+    <string name="Birthyearhint">e.g. 1988</string>
+    <string name="seconds">സെക്കൻഡ്</string>
+
+    <!--Payment-->
+    <string name="PaymentisCompleted">പേയ്മെന്റ് വിജയകരമായി പൂർത്തിയായി</string>
+    <string name="PaymentisFailed">ക്ഷമിക്കണം താങ്കളുടെ പേയ്മെന്റ് പൂർത്തിയായില്ല</string>
+    <string name="PaymentThankyou">നന്ദി</string>
+    <string name="PaymentSorry">ക്ഷമിക്കണം</string>
+    <string name="PayemntEReceipt">നൽകിയ കോൺടാക്റ്റിലേക്ക് ഇ-രസീതി വിജയകരമായി അയച്ചു</string>
+    <string name="PayemntEReceiptandDPass">നൽകിയ കോൺടാക്റ്റിലേക്ക് ഇ-റസീപ്റ്റും ഡിജിറ്റൽ പാസും വിജയകരമായി അയച്ചു</string>
+    <string name="ProgressFinishedReferenceNo">പുരോഗതി പൂർത്തിയായി - റഫറൻസ് നമ്പർ:</string>
+
+    <!--Driving License-->
+    <string name="replacementreason">മാറ്റാനുള്ള കാരണം</string>
+    <string name="Location">സ്ഥലം</string>
+
+    <!--Vehicle Information-->
+    <string name="vehicleinformation">വണ്ടിയുടെ വിവരങ്ങൾ</string>
+    <string name="chassisno">ചെസിസ്‌ നമ്പർ</string>
+    <string name="doorno">വാതിലുകളുടെ എണ്ണം</string>
+    <string name="registrationexpiry">രജിസ്ട്രേഷൻ കാലാവധി തീയതി</string>
+    <string name="insurancecompany">ഇൻഷുറൻസ് കമ്പനി</string>
+    <string name="vehiclebrand">വാഹന ബ്രാൻഡ് </string>
+    <string name="platecode">പ്ലേറ്റ് കോഡ് </string>
+    <string name="carmodel">കാർ മോഡൽ</string>
+    <string name="platesource">പ്ലേറ്റ് ഉറവിടം</string>
+    <string name="seatsnumber">സീറ്റുകളുടെ എണ്ണം </string>
+    <string name="insuranceexpiry">ഇൻഷുറൻസ് കാലാവധി തീയതി</string>
+    <string name="insurancetype">ഇൻഷുറൻസ് ടൈപ്</string>
+    <string name="vehiclecolor">വാഹന നിറം</string>
+
+
+    <!--RTA Driving Services-->
+    <string name="LicenseNumber">ലൈസൻസ് നമ്പർ</string>
+    <string name="LicenseType">ലൈസൻസ് തരം</string>
+    <string name="IssueDate">വിതരണ തീയതി</string>
+    <string name="Name">പേര്</string>
+    <string name="LicenseClass">ലൈസൻസ് ക്ലാസ് </string>
+    <string name="ExpiryDate">കാലാവധി തീയതി</string>
+    <string name="LicenseStatus">ലൈസൻസ് സ്റ്റാറ്റസ്</string>
+
+    <string name="CertificateTitleOwnership">ഉടമസ്ഥാവകാശ സർട്ടിഫിക്കറ്റ്</string>
+    <string name="CertificateTitleNonOwnership">ഉടമസ്ഥനല്ലന്നുള്ള സർട്ടിഫിക്കറ്റ്</string>
+    <string name="CertificateTitleInsuranceRefund">റീഫണ്ട് സർട്ടിഫിക്കറ്റ്</string>
+    <string name="CertificateTitleClearance">ക്ലിയറൻസ് സർട്ടിഫിക്കറ്റ്</string>
+    <string name="CertificateTitleDrivingExperience">എക്സ്പീരിയൻസ് സർട്ടിഫിക്കറ്റ്</string>
+
+    <string name="AddressedDepartment">ബന്ധപ്പെട്ട വിഭാഗം</string>
+    <string name="InsuranceCompany">ഇൻഷുറൻസ് കമ്പനി</string>
+
+    <string-array name="licensesourcecitiesarray">
+        <item>Dubai</item>
+    </string-array>
+
+    <string-array name="licensesourcecitiesarrayUpperCase">
+        <item>DUBAI</item>
+    </string-array>
+
+    <!--Fines by fine number-->
+    <string-array name="beneficiaryCode">
+        <item>Dubai Police</item>
+        <item>RTA (Parking Fines)</item>
+        <item>Abu Dhabi Traffic</item>
+        <item>Sharjah Traffic</item>
+        <item>Ajman Traffic</item>
+        <item>Um Al Quewain Traffic</item>
+        <item>Ras Al Khaymah Traffic</item>
+        <item>Al Fujairah Traffic</item>
+        <item>Salik</item>
+        <item>RTA LIS Inspection</item>
+        <item>Abu Dhabi Manucipality</item>
+        <item>Sharjah Manucipality</item>
+        <item>Oman</item>
+        <item>Bahrain</item>
+        <item>KSA</item>
+        <item>Kuwait</item>
+        <item>Qatar</item>
+        <item>RTA PTA Inspection</item>
+        <item>Parking Spaces for Trains</item>
+        <item>Sharjah Transportation</item>
+        <item>Vehicle Safety Database</item>
+        <item>Abu Dhabi Transportation</item>
+    </string-array>
+
+    <!--Certificates by Insurance refund-->
+    <string-array name="insurancecompanies">
+        <item>UNITED FIDELITY INSURANCE COMPANY DUBAI BRANCH</item>
+        <item>SHARJAH INSURANCE CO</item>
+        <item>AL AIN AHLIA INSURANCE CO (DUBAI BR )</item>
+        <item>AXA INSURANCE (GULF) B S C (C) DUBAI BRANCH</item>
+        <item>AL ITTIHAD AL WATANI GENERAL INSURANCE SOCIETY FOR NEAR EAST  </item>
+        <item>UNION INSURANCE </item>
+        <item>AL BUHAIRA NATIONAL INSURANCE CO (DUBAI BR )   </item>
+        <item>RAS AL KHAIMAH NATIONAL INSURANCE CO P S C </item>
+        <item>OMAN INSURANCE COMPANY (P S C)   </item>
+        <item>AL DHAFRA INSURANCE CO (PUBLIC SHAREHOLDING CO ) DUBAI BRANCH    </item>
+        <item>FUJAIRAH NATIONAL INSURANCE CO (DUBAI BRANCH)  </item>
+        <item>DUBAI ISLAMIC INSURANCE RE INSURANCE COMANY (AMAN )(P J S C)     </item>
+        <item>American Life Insurance Company   </item>
+        <item>DUBAI NATIONAL INSURANCE AND REINSURANCE CO (P S C )  </item>
+        <item>abu dhabi national takaful            </item>
+        <item>JORDAN INSURANCE CO LTD      </item>
+        <item>Abu Dhabi National Insurance Company     </item>
+        <item>DUBAI INSURANCE COMPANY(P S C )    </item>
+        <item>NATIONAL GENERAL INSURANCE CO (P J S C)      </item>
+        <item>ALLIANCE INSURANCE (PSC) (BR)     </item>
+        <item>TOKIO MARINE AND NICHIDO FIRE INSURANCE COMPANY LIMITED (DUBAI BR)          </item>
+        <item>CIGNA INSURANCE MIDDLE EAST (S.A.L) DUBAI BRANCH          </item>
+        <item>ORIENT INSURANCE P J S C          </item>
+        <item>Lebanese Security          </item>
+        <item>EMIRATES INSURANCE COMPANY (Br of EMIRATES INSURANCE COMPANY )(Dubai Branch)          </item>
+        <item>QATAR INSURANCE CO          </item>
+        <item>al wathba natiuonal insurance          </item>
+        <item>NORWAITCH UNION INSURANCE GULF.          </item>
+        <item>QATAR GENERAL INSURANCE AND RE INSURANCE CO (S A Q)          </item>
+        <item>Gulf Resources to Manage the Insurance Services          </item>
+        <item>Conteniantal Insurance          </item>
+        <item>The Middle East Insurance Company (S)          </item>
+        <item>وكاله كاستريل للتامين</item>
+        <item>ADAMJEE INSURANCE COMPANY LTD (DUBAI BRANCH)          </item>
+        <item>Islamic Arab Insurance Company          </item>
+        <item>SAUDI ARABIAN INSURANCE CO.BSCC DUBAI BRANCH          </item>
+        <item>AL DAWLIYAH INSURANCE SERVICES(L L C)          </item>
+        <item>Arab European Security and reinsurance          </item>
+        <item>General Accident Fire and Life Insurance          </item>
+        <item>NORTHERN INSURANCE BROKERS LLC          </item>
+        <item>THE NEW INDIA ASSURANCE COMPANY LIMITED          </item>
+        <item>Royal International Insurance          </item>
+        <item>AL KHAZNA INSURANCE CO (P S C) (DUBAI BRANCH)          </item>
+        <item>THE ORIENTAL INSURANCE COMPANY LTD (DUBAI BRANCH)          </item>
+        <item>IRAN INSURANCE CO          </item>
+        <item>Bronchial for Insurance Services          </item>
+        <item>THE BALOISE INSURANCE CO LTD (DUBAI BRANCH)          </item>
+        <item>Norwoch Union Insurance Gulf          </item>
+        <item>شركة البحرين للتامين</item>
+        <item>French General Insurance          </item>
+        <item>ROYAL AND SUN ALLIANCE INSURANCE MIDDLE EAST BSCC (DUBAI BRANCH)          </item>
+        <item>AL SAGR NATIONAL INSURANCE CO (PSC)          </item>
+        <item>National Resources for Insurance Services          </item>
+        <item>MITSUI SUMITOMO INSURANCE COMPANY LIMITED DUBAI BR          </item>
+        <item>Arab Resource Insurance          </item>
+        <item>اسيتاليا لي اسكرازيوني دي ايطاليا</item>
+        <item>jordan French Insurance          </item>
+        <item>ARABIAN SCANDINAVIAN INSURANCE          </item>
+        <item>arabia insurance          </item>
+        <item>Tahir Insurance          </item>
+        <item>Delta for Insurance Services          </item>
+        <item>ALS          </item>
+        <item>DAR AL TAKAFUL (P J S C)          </item>
+        <item>NOOR TAKAFUL GENERAL (PJSC)          </item>
+        <item>METHAQ TAKAFUL INSURANCE P S C DUBAI BR          </item>
+        <item>Al Hilal Takaful Company P.S.C          </item>
+        <item>AMERICAN HOME ASSURANCE COMPANY (DUBAI BR)          </item>
+        <item>INSURANCE HOUSE P S C          </item>
+        <item>This vehicle is does not have insurance          </item>
+        <item>NATIONAL TAKAFUL COMPANY WATANIA P J S C DUBAI BRANCH          </item>
+        <item>ORIENT U N B TAKAFUL P J S C          </item>
+    </string-array>
+
+    <!--owner ship and non owner ship-->
+    <string-array name="addresseddepartment">
+        <item>Department of Economic Development</item>
+        <item>TARKHEES-Ports,Customs and Free Zone Corporation</item>
+        <item>Ministry of Labour</item>
+        <item>Dubai Police</item>
+        <item>Dubai Courts</item>
+        <item>Department of Immigration</item>
+        <item>Banks</item>
+        <item>Car Dealers</item>
+        <item>Insurance Companies</item>
+        <item>Dubai municipality</item>
+        <item>Personal Purpose</item>
+        <item>Department of Tourism and Commerce Marketing</item>
+        <item>Dubai Silicon Oasis Authority</item>
+        <item>Dubai Airport Freezone</item>
+        <item>National Media Council</item>
+        <item>Dubai Chamber of Commerce and Industry</item>
+        <item>Al Meydan Free Zone</item>
+        <item>Community Development Authority</item>
+        <item>Dubai Silicon Oasis</item>
+        <item>Department of Economic Development-Abu-Dhabi</item>
+        <item>Department of Islamic Affairs</item>
+        <item>Department of Economic Development-SHARJAH</item>
+        <item>Department of Economic Development-UM-QUWAIN</item>
+        <item>Department of Economic Development-FUJAIRAH</item>
+        <item>Department of Economic Development-AJMAN</item>
+        <item>Department of Economic Development-RAS-ALKHAIMAH</item>
+        <item>SAUDIA COMPANY</item>
+        <item>QATAR COMPANY</item>
+        <item>OMAN COMPANY</item>
+        <item>KUWAIT COMPANY</item>
+    </string-array>
+
+    <string-array name="platecodearray">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+        <item>AA</item>
+    </string-array>
+
+    <string-array name="platecategoryarray">
+        <item>Private</item>
+        <item>Clasic</item>
+        <item>MotorCycle</item>
+    </string-array>
+
+    <string-array name="replacementreason">
+        <item>LOST</item>
+        <item>DAMAGED</item>
+    </string-array>
+
+    <string-array name="addressedDeptList">
+        <item></item>
+    </string-array>
+
+    <string-array name="insuranceCompanyList">
+        <item></item>
+    </string-array>
+
+    <!--Parking Service-->
+    <!--Card Type-->
+    <string-array name="parkingcardtype">
+        <item>My Parking Areas</item>
+        <item>My Parking General</item>
+    </string-array>
+    <!--Card Period-->
+    <string-array name="parkingcardperiod">
+        <item>90</item>
+        <item>180</item>
+        <item>365</item>
+    </string-array>
+
+    <!--RTA Screens End-->
+
+    <!--firebase-->
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+
+    <!--login-->
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_user">User</string>
+    <string name="login_text">Login Page</string>
+    <string name="usename_text">User Name</string>
+    <string name="password_text">Password</string>
+    <string name="attempts_text">Attempts :</string>
+    <string name="button_login">Login</string>
+    <string name="Secon_page_text">Welocome to the Second Page</string>
+    <string name="title_activity_rtaownership_certificate_by_plate_no">
+        RTAOwnershipCertificateByPlateNo
+    </string>
+
+</resources>

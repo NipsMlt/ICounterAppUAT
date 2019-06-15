@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/CusomDialogStyleWhite"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            style="@style/CusomDialogStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                style="@style/CusomDialogStyleWhiteinstant"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/skyscraper">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/iv_closefarefragment"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:src="@drawable/ic_close_blue_500_36dp" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:gravity="center">
+
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="10dp"
+                                            android:text="@string/CurrentTime"
+                                            android:textColor="@color/colorred"
+                                            android:textSize="@dimen/text_size_fare"
+                                            android:textStyle="bold" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="10dp"
+                                            android:text="@string/CurrentDate"
+                                            android:textColor="@color/colorred"
+                                            android:textSize="@dimen/text_size_fare"
+                                            android:textStyle="bold" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="10dp"
+                                            android:text="@string/Country"
+                                            android:textColor="@color/colorred"
+                                            android:textSize="@dimen/text_size_fare"
+                                            android:textStyle="bold" />
+
+                                        <android.support.v4.widget.Space
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="@dimen/space_time" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="10dp"
+                                            android:text="@string/City"
+                                            android:textColor="@color/colorred"
+                                            android:textSize="@dimen/text_size_fare"
+                                            android:textStyle="bold" />
+
+                                        <android.support.v4.widget.Space
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="@dimen/space_time" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="10dp"
+                                            android:text="@string/Capital"
+                                            android:textColor="@color/colorred"
+                                            android:textSize="@dimen/text_size_fare"
+                                            android:textStyle="bold" />
+
+                                        <android.support.v4.widget.Space
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="@dimen/space_time" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="10dp"
+                                            android:text="@string/Abbreviations"
+                                            android:textColor="@color/colorred"
+                                            android:textSize="@dimen/text_size_fare"
+                                            android:textStyle="bold" />
+
+                                        <android.support.v4.widget.Space
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="@dimen/space_time" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="10dp"
+                                            android:text="@string/DialCode"
+                                            android:textColor="@color/colorred"
+                                            android:textSize="@dimen/text_size_fare"
+                                            android:textStyle="bold" />
+
+                                    </LinearLayout>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@+id/currenttime_timefrg"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="12345"
+                                        android:textColor="@color/colorbluerta"
+                                        android:layout_marginTop="10dp"
+                                        android:textSize="@dimen/text_size_fare"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:id="@+id/currentdate_timefrg"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="12345"
+                                        android:textColor="@color/colorbluerta"
+                                        android:layout_marginTop="10dp"
+                                        android:textSize="@dimen/text_size_fare"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="10dp"
+                                        android:text="United Arab Emirates"
+                                        android:textColor="@color/colorbluerta"
+                                        android:textSize="@dimen/text_size_fare"
+                                        android:textStyle="bold" />
+
+                                    <android.support.v4.widget.Space
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="@dimen/space_time" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="10dp"
+                                        android:text="Dubai"
+                                        android:textColor="@color/colorbluerta"
+                                        android:textSize="@dimen/text_size_fare"
+                                        android:textStyle="bold" />
+
+                                    <android.support.v4.widget.Space
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="@dimen/space_time" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="10dp"
+                                        android:text="Abu Dhabi"
+                                        android:textColor="@color/colorbluerta"
+                                        android:textSize="@dimen/text_size_fare"
+                                        android:textStyle="bold" />
+
+                                    <android.support.v4.widget.Space
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="@dimen/space_time" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="10dp"
+                                        android:text=" AE"
+                                        android:textColor="@color/colorbluerta"
+                                        android:textSize="@dimen/text_size_fare"
+                                        android:textStyle="bold" />
+
+                                    <android.support.v4.widget.Space
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="@dimen/space_time" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="10dp"
+                                        android:text="+971"
+                                        android:textColor="@color/colorbluerta"
+                                        android:textSize="@dimen/text_size_fare"
+                                        android:textStyle="bold" />
+
+                                </LinearLayout>
+
+
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

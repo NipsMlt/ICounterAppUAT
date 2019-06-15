@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/tvrtaservice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="@string/ParkingServices"
+                android:textColor="@color/colorgreyrtabuttons"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text="Sec "
+                        android:textColor="@color/colorgreyrtabuttons"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_rtamainservices_timer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text="60"
+                        android:textColor="@color/colorgreyrtabuttons"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_rtaservicesmain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="@string/Selectanyoneoption"
+                    android:textColor="@color/colorgreyrtabuttons"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <android.support.v4.widget.Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="@dimen/rta_main_service_images_width"
+                        android:layout_height="@dimen/rta_main_service_images_height">
+
+                        <Button
+                            android:id="@+id/btn_newseasonalcard"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/gradientlighttodarkgrey"
+                            android:gravity="left|center"
+                            android:paddingEnd="10dp"
+                            android:paddingStart="20dp"
+                            android:text="@string/Newseasonalcard"
+                            android:textColor="@color/colorwhite" />
+                    </LinearLayout>
+
+                    <android.support.v4.widget.Space
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content" />
+
+                    <LinearLayout
+                        android:layout_width="@dimen/rta_main_service_images_width"
+                        android:layout_height="@dimen/rta_main_service_images_height">
+
+                        <Button
+                            android:id="@+id/btn_seasonalcardrenewal"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/gradientlighttodarkgrey"
+                            android:gravity="left|center"
+                            android:paddingEnd="10dp"
+                            android:paddingStart="20dp"
+                            android:text="@string/Seasonalcardrennewal"
+                            android:textColor="@color/colorwhite" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="bottom">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="left">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/govofdubailogo" />
+
+                <android.support.v4.widget.Space
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:layout_width="@dimen/rtalogowidth"
+                    android:layout_height="@dimen/rtalogoheight"
+                    android:src="@drawable/rtaserviceslogo" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right">
+
+                <Button
+                    android:id="@+id/btn_rtaserviceparkingservicesback"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                   android:background="@drawable/gradientlighttodarkgrey"
+                    android:clickable="true"
+                    android:drawableLeft="@drawable/rtaback"
+                    android:onClick="onClick"
+                    android:padding="5dp"
+                    android:text="Back"
+                    android:textColor="@color/colorwhite" />
+
+                <android.support.v4.widget.Space
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/btnrtaparkingservicesinfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                   android:background="@drawable/gradientlighttodarkgrey"
+                    android:clickable="true"
+                    android:drawableLeft="@drawable/rtainfo"
+                    android:onClick="onClick"
+                    android:padding="5dp"
+                    android:text="Info"
+                    android:textColor="@color/colorwhite" />
+
+                <android.support.v4.widget.Space
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/btnrtaparkingserviceshome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                   android:background="@drawable/gradientlighttodarkgrey"
+                    android:clickable="true"
+                    android:drawableLeft="@drawable/rtahome"
+                    android:onClick="onClick"
+                    android:padding="5dp"
+                    android:text="@string/Home"
+                    android:textColor="@color/colorwhite" />
+
+                <android.support.v4.widget.Space
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

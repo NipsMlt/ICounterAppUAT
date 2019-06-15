@@ -1,0 +1,474 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colormainbackground"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="6"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="5"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:id="@+id/viewpagermain"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.27">
+
+                            <android.support.v4.view.ViewPager
+                                android:id="@+id/pager"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:background="@color/colorwhite" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/rlfragmentcontainer"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1">
+
+                            <RelativeLayout
+                                android:id="@+id/rlcontent"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <RelativeLayout
+                                    android:id="@+id/content"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_alignParentStart="true"
+                                    android:layout_alignParentTop="true" />
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_marginBottom="5dp"
+                                    android:background="@color/colorwhite">
+
+                                    <TextView
+                                        android:id="@+id/tv_services"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:ellipsize="marquee"
+                                        android:marqueeRepeatLimit="marquee_forever"
+                                        android:scrollHorizontally="true"
+                                        android:singleLine="true"
+                                        android:text="Kindly check the new services we are providing for RTA and DTC, It will assist you to pay your fines, to explore more have a look at the RTA services."
+                                        android:textColor="@color/colorblack"
+                                        android:textSize="13sp" />
+                                </RelativeLayout>
+                            </RelativeLayout>
+
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                    <Space
+                        android:layout_width="3dp"
+                        android:layout_height="wrap_content" />
+
+                    <LinearLayout
+                        android:id="@+id/llsideoffers"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.3"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/llmenuup"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1.5"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1.5">
+
+                                    <LinearLayout
+                                        android:id="@+id/ll_fare"
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginRight="1dp"
+                                        android:layout_weight="1"
+                                        android:background="@drawable/verticalgradientmainscreenviews"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <ImageView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:src="@drawable/taxifare" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:id="@+id/ll_driverinfo"
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:background="@drawable/verticalgradientmainscreenviews"
+                                        android:orientation="vertical">
+
+                                        <RelativeLayout
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content">
+
+                                            <ImageView
+                                                android:id="@+id/iv_driver_image"
+                                                android:layout_width="50dp"
+                                                android:layout_height="50dp"
+                                                android:layout_centerHorizontal="true"
+                                                android:src="@drawable/dtcdriverphoto" />
+
+                                            <ImageView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_alignParentBottom="true"
+                                                android:scaleType="fitXY"
+                                                android:src="@drawable/driverphotobackground" />
+                                        </RelativeLayout>
+
+                                    </LinearLayout>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_marginTop="1dp"
+                                    android:layout_weight="1.5">
+
+                                    <LinearLayout
+                                        android:id="@+id/ll_time"
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginRight="1dp"
+                                        android:layout_weight="1"
+                                        android:background="@drawable/verticalgradientmainscreenviews"
+                                        android:orientation="vertical">
+
+                                        <ImageView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_gravity="center"
+                                            android:src="@drawable/ic_access_time_black_24dp" />
+
+                                        <Space
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="10dp" />
+
+                                        <LinearLayout
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_gravity="center"
+                                            android:orientation="vertical">
+
+                                            <TextView
+                                                android:id="@+id/tv_datemainbox"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:gravity="center_horizontal"
+                                                android:text="120.00"
+                                                android:textColor="@color/colorblack"
+                                                android:textSize="@dimen/farefourboxesmain"
+                                                android:textStyle="bold" />
+
+                                            <TextView
+                                                android:id="@+id/tv_timemainbox"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:gravity="center_horizontal"
+                                                android:text="12:10:30"
+                                                android:textColor="@color/colorblack"
+                                                android:textSize="@dimen/farefourboxesmain"
+                                                android:textStyle="bold" />
+                                        </LinearLayout>
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:id="@+id/ll_weatherinfo"
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:background="@drawable/verticalgradientmainscreenviews"
+                                        android:orientation="vertical">
+
+                                        <ImageView
+                                            android:layout_width="40dp"
+                                            android:layout_height="40dp"
+                                            android:layout_gravity="center"
+                                            android:src="@drawable/wdayclearskybig" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_gravity="center"
+                                            android:text="31"
+                                            android:textColor="@color/colorblack"
+                                            android:textSize="20dp"
+                                            android:textStyle="bold" />
+
+                                    </LinearLayout>
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <Space
+                            android:layout_width="wrap_content"
+                            android:layout_height="3dp" />
+
+                        <RelativeLayout
+                            android:id="@+id/rlrecyclersideoffers"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="2.5">
+
+                            <RelativeLayout
+                                android:id="@+id/contentimages"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent" />
+
+                            <android.support.v7.widget.RecyclerView
+                                android:id="@+id/recycler_view_side_offers"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:background="@color/colorwhite"
+                                android:clickable="true"
+                                android:orientation="vertical" />
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="80dp"
+                                android:layout_alignParentTop="true"
+                                android:background="@drawable/recyler_gradient_up">
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerHorizontal="true"
+                                    android:src="@drawable/ic_keyboard_arrow_up_white_36dp" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="80dp"
+                                android:layout_alignParentBottom="true"
+                                android:background="@drawable/recyler_gradient_down">
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_centerHorizontal="true"
+                                    android:src="@drawable/ic_keyboard_arrow_down_white_36dp" />
+                            </RelativeLayout>
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llmenubottom"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.38"
+                        android:orientation="horizontal">
+
+                        <HorizontalScrollView
+                            android:layout_width="600dp"
+                            android:layout_height="match_parent"
+                            android:layout_centerInParent="true">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:id="@+id/giv_mltlogo"
+                                    android:layout_width="150dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center"
+                                    android:src="@drawable/mltbottommenu" />
+
+                                <ImageView
+                                    android:id="@+id/giv_rtaservices"
+                                    android:layout_width="150dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center"
+                                    android:layout_toRightOf="@+id/giv_dubaipass"
+                                    android:src="@drawable/rtaservices" />
+
+                                <ImageView
+                                    android:id="@+id/giv_dtcservices"
+                                    android:layout_width="150dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center"
+                                    android:layout_toRightOf="@+id/giv_rtaservices"
+                                    android:src="@drawable/dtcservices" />
+
+                                <ImageView
+                                    android:id="@+id/giv_governmentservices"
+                                    android:layout_width="150dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_toRightOf="@+id/giv_dtcservices"
+                                    android:src="@drawable/othergovservices" />
+
+                                <ImageView
+                                    android:id="@+id/giv_utilityotherservices"
+                                    android:layout_width="150dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginRight="0dp"
+                                    android:layout_toRightOf="@id/giv_governmentservices"
+                                    android:src="@drawable/giv_utilitiesandotherservices" />
+
+
+                                <ImageView
+                                    android:id="@+id/giv_ecommerce"
+                                    android:layout_width="150dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center"
+                                    android:layout_toRightOf="@+id/giv_mltlogo"
+                                    android:src="@drawable/mmecommerce" />
+
+                                <ImageView
+                                    android:id="@+id/giv_classified"
+                                    android:layout_width="153dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center"
+                                    android:layout_toRightOf="@+id/giv_ecommerce"
+                                    android:src="@drawable/mmclassifiedads" />
+
+                                <ImageView
+                                    android:id="@+id/giv_dubaipass"
+                                    android:layout_width="150dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center"
+                                    android:layout_toRightOf="@+id/giv_classified"
+                                    android:src="@drawable/mmdubaismartpass" />
+
+                            </LinearLayout>
+                        </HorizontalScrollView>
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentStart="true"
+                            android:gravity="center_vertical">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_keyboard_arrow_left_black_36dp" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentRight="true"
+                            android:gravity="center_vertical">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_keyboard_arrow_right_black_36dp" />
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".10"
+                        android:gravity="right">
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="0dp"
+                            android:layout_weight="1">
+
+                            <ImageView
+                                android:id="@+id/iv_happyscreen"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/happinessmetermain" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="0dp"
+                            android:layout_weight="1">
+
+                            <ImageView
+                                android:id="@+id/ivmenu"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:clickable="true"
+                                android:src="@drawable/dtcmenubutton" />
+
+                        </RelativeLayout>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <!--<color name="colorPrimaryDark">#F7F0DD</color>-->
+    <color name="colorPrimaryDark">#9C763F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPane">#33C2CAC9</color>
+    <color name="menucolornotSelected">#FC8783</color>
+    <color name="menucolorSelected">#ED3C44</color>
+    <color name="colorbrown">#9C763F</color>
+    <color name="colorlightbrown">#C5A471</color>
+    <color name="colorblack">#000000</color>
+    <color name="colorred">#EC1C24</color>
+    <color name="colorredlight">#FE3939</color>
+    <color name="colorredlightborder">#FE8484</color>
+    <color name="colorred1">#EC1C24</color>
+    <color name="colorblacktransparent">#99000000</color>
+    <color name="colorblacktransparent1">#10000000</color>
+    <color name="colorwhite">#FFFFFF</color>
+    <color name="colordarkgreen">#424F36</color>
+    <color name="colorgrey">#757373</color>
+    <color name="colorgreyrtabuttons">#595353</color>
+    <color name="colorlightgrey">#99757373</color>
+    <color name="colorlightgreytransparent">#40757373</color>
+    <color name="colorblueinstant">#2C364D</color>
+    <color name="colorbluerta">#2A328D</color>
+    <color name="colorredrta">#EE1C25</color>
+    <color name="colorlightgreyrta">#52575C</color>
+    <color name="colordarkbluerta">#2E3747</color>
+    <color name="colorgreytransparent">#F0F1F1</color>
+    <color name="colorgreylight">#00E2E1E1</color>
+    <color name="colorgreylight2">#99F2F2F2</color>
+    <color name="colornavyblue">#2C364D</color>
+    <color name="colorlightbluehappy">#25A9E1</color>
+    <color name="colordarkbluehappy">#33394E</color>
+    <color name="colormainbackground">#BBBBC0</color>
+    <color name="colorborderfourboxes">#939498</color>
+    <color name="colorinvisible">#00ffffff</color>
+    <color name="colorinvisible50">#90ffffff</color>
+
+</resources>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center"
+            android:background="@color/colorbluerta"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="Customer Details"
+                android:textColor="@color/colorwhite"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:text="@string/EnteryourEmailAddress"
+                        android:textColor="@color/colorwhite"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/edt_cd_email"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorwhite"
+                        android:hint="Input your email"
+                        android:inputType="number"
+                        android:textColor="@color/colordarkbluerta" />
+                </LinearLayout>
+
+                <android.support.v4.widget.Space
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:hint="Input your number"
+                        android:inputType="number"
+                        android:maxLines="1"
+                        android:text="@string/EnteryourMobileNumber"
+                        android:textColor="@color/colorwhite"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/edt_cd_no"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorwhite"
+                        android:hint="Input your number"
+                        android:inputType="number"
+                        android:maxLines="1"
+                        android:textColor="@color/colordarkbluerta" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:text="@string/EnteryourAddress"
+                        android:textColor="@color/colorwhite"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/edt_cd_address"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorwhite"
+                        android:hint="Input your address"
+                        android:inputType="number"
+                        android:maxLines="1"
+                        android:textColor="@color/colordarkbluerta" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/getcustomerdetailstext"
+                    android:textColor="@color/colorwhite"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <android.support.v4.widget.Space
+            android:layout_width="wrap_content"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:paddingTop="30dp">
+
+            <Button
+                android:id="@+id/btn_submit_cd"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gradientlighttodarkred"
+                android:clickable="true"
+                android:text="Continue"
+                android:textColor="@color/colorwhite" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

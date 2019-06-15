@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+
+        <android.support.v4.widget.Space
+            android:layout_width="30dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_rtaps_spc_plateno"
+            android:layout_width="@dimen/tv_width80"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="91910"
+            android:textAlignment="center"
+            android:textSize="@dimen/text_size_finpdetailscustomize"
+            android:textStyle="bold" />
+
+        <android.support.v4.widget.Space
+            android:layout_width="40dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_rtaps_spc_platecode"
+            android:layout_width="@dimen/tv_width80"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="J"
+            android:textAlignment="center"
+            android:textSize="@dimen/text_size_finpdetailscustomize"
+            android:textStyle="bold" />
+
+        <android.support.v4.widget.Space
+            android:layout_width="35dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_rtaps_spc_platecategory"
+            android:layout_width="@dimen/tv_width80"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="private"
+            android:textAlignment="center"
+            android:textSize="@dimen/text_size_finpdetailscustomize"
+            android:textStyle="bold" />
+
+        <android.support.v4.widget.Space
+            android:layout_width="40dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_rtaps_spc_platesource"
+            android:layout_width="@dimen/tv_width80"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="DXB"
+            android:textAlignment="center"
+            android:textSize="@dimen/text_size_finpdetailscustomize" />
+
+        <android.support.v4.widget.Space
+            android:layout_width="55dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_rtaps_spc_trfno"
+            android:layout_width="@dimen/tv_width80"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="11148480"
+            android:textAlignment="center"
+            android:textSize="@dimen/text_size_finpdetailscustomize"
+            android:textStyle="bold" />
+
+
+        <android.support.v4.widget.Space
+            android:layout_width="45dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_rtaps_spc_carmodel"
+            android:layout_width="@dimen/tv_width100"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Porsche Cayenne"
+            android:textAlignment="center"
+            android:textSize="@dimen/text_size_finpdetailscustomize"
+            android:textStyle="bold" />
+
+
+        <android.support.v4.widget.Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_ps_spc_delete"
+            android:layout_width="@dimen/tv_width80"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="40dp"
+            android:clickable="true"
+            android:src="@drawable/details"
+            android:text="Delete" />
+    </LinearLayout>
+</RelativeLayout>

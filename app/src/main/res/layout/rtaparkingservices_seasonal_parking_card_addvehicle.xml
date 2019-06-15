@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:id="@+id/tvrtaservice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:text="@string/seasonalparkingcard"
+                        android:textColor="@color/colorgreyrtabuttons"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:text="Sec "
+                                android:textColor="@color/colorgreyrtabuttons"
+                                android:textSize="30sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tv_rtamainservices_timer"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:text="60"
+                                android:textColor="@color/colorgreyrtabuttons"
+                                android:textSize="30sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:layout_gravity="center"
+                    android:background="@color/colorbluerta"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:text="@string/PlateSource"
+                                android:textColor="@color/colorwhite"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <Spinner
+                                android:id="@+id/sp_ps_spc_platesource"
+                                android:layout_width="300dp"
+                                android:layout_height="wrap_content"
+                                android:background="@color/colorwhite"
+                                android:entries="@array/licensesourcecitiesarrayUpperCase"
+                                android:saveEnabled="false" />
+                        </LinearLayout>
+
+                        <android.support.v4.widget.Space
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:text="@string/Platecategory"
+                                android:textColor="@color/colorwhite"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <Spinner
+                                android:id="@+id/sp_ps_spc_platecategory"
+                                android:layout_width="300dp"
+                                android:layout_height="wrap_content"
+                                android:background="@color/colorwhite"
+                                android:entries="@array/platecategoryarray"
+                                android:saveEnabled="false" />
+                        </LinearLayout>
+
+                        <android.support.v4.widget.Space
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:text="@string/PlateNumber"
+                                android:textColor="@color/colorwhite"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <EditText
+                                android:id="@+id/edt_ps_spc_plateno"
+                                android:layout_width="300dp"
+                                android:layout_height="wrap_content"
+                                android:background="@color/colorwhite"
+                                android:inputType="number"
+                                android:maxLines="1"
+                                android:textColor="@color/colordarkbluerta" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp">
+
+                        <LinearLayout
+                            android:layout_width="300dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:text="@string/Platecode"
+                                android:textColor="@color/colorwhite"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <Spinner
+                                android:id="@+id/sp_ps_spc_platecode"
+                                android:layout_width="300dp"
+                                android:layout_height="wrap_content"
+                                android:background="@color/colorwhite"
+                                android:entries="@array/platecodearray"
+                                android:saveEnabled="false" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <android.support.v4.widget.Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="5dp" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/btn_ps_spc_continue"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_gravity="right"
+                        android:background="@color/colorredrta"
+                        android:clickable="true"
+                        android:text="@string/Continue"
+                        android:textColor="@color/colorwhite" />
+
+                    <Button
+                        android:id="@+id/btn_ps_spc_addvehicle"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:background="@color/colorblacktransparent"
+                        android:clickable="true"
+                        android:text="@string/AddVehicle"
+                        android:textColor="@color/colorwhite" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <android.support.v4.widget.Space
+                android:layout_width="wrap_content"
+                android:layout_height="5dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:background="@color/colorblack" />
+
+                    <TextView
+                        android:layout_width="@dimen/tvf_fipticketfineno_width"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/PlateNumber"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorblack"
+                        android:textSize="@dimen/text_size_finpdetailsheadingscustomize"
+                        android:textStyle="bold" />
+
+
+                    <android.support.v4.widget.Space
+                        android:layout_width="10dp"
+                        android:layout_height="0dp" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:background="@color/colorblack" />
+
+                    <android.support.v4.widget.Space
+                        android:layout_width="10dp"
+                        android:layout_height="0dp" />
+
+
+                    <TextView
+                        android:layout_width="@dimen/tvf_fipdate_width"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/Platecode"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorblack"
+                        android:textSize="@dimen/text_size_finpdetailsheadingscustomize"
+                        android:textStyle="bold" />
+
+
+                    <android.support.v4.widget.Space
+                        android:layout_width="10dp"
+                        android:layout_height="0dp" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:background="@color/colorblack" />
+
+                    <android.support.v4.widget.Space
+                        android:layout_width="10dp"
+                        android:layout_height="0dp" />
+
+
+                    <TextView
+                        android:layout_width="@dimen/tvf_fipknowledgefee_width"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/Platecategory"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorblack"
+                        android:textSize="@dimen/text_size_finpdetailsheadingscustomize"
+                        android:textStyle="bold" />
+
+
+                    <android.support.v4.widget.Space
+                        android:layout_width="10dp"
+                        android:layout_height="0dp" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:background="@color/colorblack" />
+
+                    <android.support.v4.widget.Space
+                        android:layout_width="10dp"
+                        android:layout_height="0dp" />
+
+
+                    <TextView
+                        android:layout_width="@dimen/tvf_fipdate_width"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/PlateSource"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorblack"
+                        android:textSize="@dimen/text_size_finpdetailsheadingscustomize"
+                        android:textStyle="bold" />
+
+
+                    <android.support.v4.widget.Space
+                        android:layout_width="10dp"
+                        android:layout_height="0dp" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:background="@color/colorblack" />
+
+                    <android.support.v4.widget.Space
+                        android:layout_width="10dp"
+                        android:layout_height="0dp" />
+
+
+                    <TextView
+                        android:layout_width="@dimen/tv_width140"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/TrafficFileNumber"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorblack"
+                        android:textSize="@dimen/text_size_finpdetailsheadingscustomize"
+                        android:textStyle="bold" />
+
+
+                    <android.support.v4.widget.Space
+                        android:layout_width="10dp"
+                        android:layout_height="0dp" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:background="@color/colorblack" />
+
+                    <android.support.v4.widget.Space
+                        android:layout_width="10dp"
+                        android:layout_height="0dp" />
+
+
+                    <TextView
+                        android:layout_width="@dimen/tv_width80"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/carmodel"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorblack"
+                        android:textSize="@dimen/text_size_finpdetailsheadingscustomize"
+                        android:textStyle="bold" />
+
+
+                    <android.support.v4.widget.Space
+                        android:layout_width="10dp"
+                        android:layout_height="0dp" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:background="@color/colorblack" />
+
+                    <android.support.v4.widget.Space
+                        android:layout_width="10dp"
+                        android:layout_height="0dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2">
+
+                <ListView
+                    android:id="@+id/lv_spc"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/recyclerview_border_fipdetails"
+                    android:clickable="true"></ListView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="left">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/govofdubailogo" />
+
+                    <android.support.v4.widget.Space
+                        android:layout_width="10dp"
+                        android:layout_height="wrap_content" />
+
+                    <ImageView
+                        android:layout_width="@dimen/rtalogowidth"
+                        android:layout_height="@dimen/rtalogoheight"
+                        android:src="@drawable/rtaserviceslogo" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:gravity="right">
+
+                    <Button
+                        android:id="@+id/btn_rta_ps_spc_back"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:background="@color/colorgreyrtabuttons"
+                        android:clickable="true"
+                        android:drawableLeft="@drawable/rtaback"
+                        android:onClick="onClick"
+                        android:padding="5dp"
+                        android:text="Back"
+                        android:textColor="@color/colorwhite" />
+
+                    <android.support.v4.widget.Space
+                        android:layout_width="10dp"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/btn_rta_ps_spc_info"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:background="@color/colorgreyrtabuttons"
+                        android:clickable="true"
+                        android:drawableLeft="@drawable/rtainfo"
+                        android:onClick="onClick"
+                        android:padding="5dp"
+                        android:text="Info"
+                        android:textColor="@color/colorwhite" />
+
+                    <android.support.v4.widget.Space
+                        android:layout_width="10dp"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/btn_rta_ps_spc_home"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:background="@color/colorgreyrtabuttons"
+                        android:clickable="true"
+                        android:drawableLeft="@drawable/rtahome"
+                        android:onClick="onClick"
+                        android:padding="5dp"
+                        android:text="@string/Home"
+                        android:textColor="@color/colorwhite" />
+
+                    <android.support.v4.widget.Space
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

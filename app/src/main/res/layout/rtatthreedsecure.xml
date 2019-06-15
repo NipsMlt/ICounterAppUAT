@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/ll_webviewrta"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <WebView
+            android:id="@+id/webviewrta"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></WebView>
+
+        <RelativeLayout
+            android:id="@+id/rl_errormsg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorwhite"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/btn_backfromcybersource"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:clickable="true"
+                android:text="@string/Back" />
+
+            <TextView
+                android:id="@+id/tv_sorryforinconvinience"
+                android:layout_width="wrap_content"
+                android:layout_height="280dp"
+                android:layout_centerInParent="true"
+                android:background="@color/colorbluerta"
+                android:gravity="center_vertical"
+                android:text="@string/Sorryfortheinconvinience"
+                android:textColor="@color/colorwhite"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_paymentrta"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorbluerta"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_paymentprocessed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/YourPaymentisbeingprocessed"
+            android:textColor="@color/colorwhite"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/ll_paymentpaidrta"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <include
+            layout="@layout/rtacompletepayment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+</LinearLayout>

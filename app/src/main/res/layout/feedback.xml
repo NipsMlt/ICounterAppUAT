@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.3"
+                        android:orientation="vertical">
+
+                        <android.support.v4.widget.Space
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="bottom"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="7dp"
+                                android:text="@string/name"
+                                android:textColor="#000000"
+                                android:textSize="@dimen/text_size_contact_us" />
+
+                            <android.support.v4.widget.Space
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="9dp"
+                                android:text="@string/email"
+                                android:textColor="#000000"
+                                android:textSize="@dimen/text_size_contact_us" />
+
+                            <android.support.v4.widget.Space
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:text="@string/mobileno"
+                                android:textColor="#000000"
+                                android:textSize="@dimen/text_size_contact_us" />
+
+                            <android.support.v4.widget.Space
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:text="@string/issueoccured"
+                                android:textColor="#000000"
+                                android:textSize="@dimen/text_size_contact_us" />
+
+                            <android.support.v4.widget.Space
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:text="@string/message"
+                                android:textColor="#000000"
+                                android:textSize="@dimen/text_size_contact_us" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <android.support.v4.widget.Space
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="bottom"
+                            android:orientation="vertical">
+
+                            <EditText
+                                android:id="@+id/edtname"
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content"
+                                android:background="@color/colorlightgrey"
+                                android:inputType="text"
+                                android:maxLines="1"
+                                android:padding="5dp"
+                                android:textColor="#000000"
+                                android:textSize="@dimen/text_size_contact_us" />
+
+                            <android.support.v4.widget.Space
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp" />
+
+                            <EditText
+                                android:id="@+id/edtemail"
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content"
+                                android:background="@color/colorlightgrey"
+                                android:inputType="textEmailAddress"
+                                android:padding="5dp"
+                                android:textColor="#000000"
+                                android:textSize="@dimen/text_size_contact_us" />
+
+
+                            <android.support.v4.widget.Space
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp" />
+
+                            <EditText
+                                android:id="@+id/edtno"
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content"
+                                android:background="@color/colorlightgrey"
+                                android:inputType="number"
+                                android:padding="5dp"
+                                android:textColor="#000000"
+                                android:textSize="@dimen/text_size_contact_us" />
+
+                            <android.support.v4.widget.Space
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp" />
+
+                            <Spinner
+                                android:id="@+id/sp_issues_feedback"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:entries="@array/issues_array" />
+
+                            <android.support.v4.widget.Space
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp" />
+
+                            <EditText
+                                android:id="@+id/edtmsg"
+                                android:layout_width="200dp"
+                                android:layout_height="100dp"
+                                android:background="@color/colorlightgrey"
+                                android:ellipsize="end"
+                                android:gravity="top"
+                                android:inputType="textMultiLine"
+                                android:scrollHorizontally="true"
+                                android:textColor="#000000"
+                                android:textSize="@dimen/text_size_contact_us" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_hidekeyboard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="30dp"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/ivsendemail"
+                    android:layout_alignParentEnd="true"
+                    android:text="@string/hidekeyboard"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/text_size_contact_us" />
+
+                <ImageView
+                    android:id="@+id/iv_hidekeyboard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_play_for_work_blue_grey_800_48dp" />
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/ivsendemail"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="bottom|end"
+                android:src="@drawable/submit" />
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

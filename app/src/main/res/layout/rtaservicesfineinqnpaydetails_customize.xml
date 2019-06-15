@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <CheckBox
+                android:id="@+id/cb_fipselect"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/iv_unpayablefine"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/unpayableticket"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_fipticketno"
+            android:layout_width="@dimen/tvf_fipticketfineno_custom_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="12345"
+            android:textSize="@dimen/text_size_finpdetailscustomize"
+            android:textStyle="bold" />
+
+        <android.support.v4.widget.Space
+            android:layout_width="10dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_fipdate"
+            android:layout_width="@dimen/tvf_fipdate_custom_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="04/06/2018"
+            android:textSize="@dimen/text_size_finpdetailscustomize"
+            android:textStyle="bold" />
+
+        <android.support.v4.widget.Space
+            android:layout_width="10dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_fipfineamount"
+            android:layout_width="@dimen/tvf_fipfineamount_custom_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="04/06/2018"
+            android:textSize="@dimen/text_size_finpdetailscustomize"
+            android:textStyle="bold" />
+
+        <android.support.v4.widget.Space
+            android:layout_width="10dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_fippenalty"
+            android:layout_width="@dimen/tvf_fippenalty_custom_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="04/06/2018"
+            android:textSize="@dimen/text_size_finpdetailscustomize" />
+
+        <android.support.v4.widget.Space
+            android:layout_width="10dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_fipknowledgefee"
+            android:layout_width="@dimen/tvf_fipknowledgefee_custom_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="04/06/2018"
+            android:textSize="@dimen/text_size_finpdetailscustomize"
+            android:textStyle="bold" />
+
+        <android.support.v4.widget.Space
+            android:layout_width="10dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_fiptotal"
+            android:layout_width="@dimen/tvf_fiptotal_custom_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="04/06/2018"
+            android:textSize="@dimen/text_size_finpdetailscustomize"
+            android:textStyle="bold" />
+
+        <android.support.v4.widget.Space
+            android:layout_width="10dp"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/iv_fipfnpdetails"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:src="@drawable/details" />
+    </LinearLayout>
+</RelativeLayout>

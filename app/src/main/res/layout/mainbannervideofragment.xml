@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_videoviewmainbanner"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <VideoView
+        android:id="@+id/videoviewmainbanner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"></VideoView>
+
+    <RelativeLayout
+        android:id="@+id/rl_video_brightness_box"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/app_video_brightness_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_brightness_medium_black_36dp" />
+
+        <TextView
+            android:id="@+id/tv_video_brightness"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/app_video_brightness_icon"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="8dp"
+            android:text="50%"
+            android:textColor="@android:color/black"
+            android:textSize="16dp" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rlvolume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/volumnBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:src="@drawable/ic_volume_up_black_36dp" />
+
+                <ImageView
+                    android:id="@+id/plus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/volumnBtn"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/plus" />
+
+                <!--<com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper
+                    android:id="@+id/seekBarContainer1"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp">
+
+                    <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBar
+                        android:id="@+id/volumeBar"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_below="@+id/plus"
+                        android:layout_marginLeft="10dp"
+                        android:splitTrack="false"
+                        app:seekBarRotation="CW270" />
+
+                    &lt;!&ndash;<SeekBar
+                        android:id="@+id/volumeBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="300dp"
+                        android:layout_below="@+id/volumnBtn"
+                        android:maxHeight="1dip"
+                        android:progressDrawable="@drawable/progress"
+                        android:rotation="270"
+                        android:layout_alignParentLeft="true"
+                        android:splitTrack="false"
+                        android:thumbTint="@color/colorbrowntransparent" />&ndash;&gt;
+                </com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper>-->
+
+                <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper
+                    android:id="@+id/seekBarContainer1"
+                    android:layout_width="50dp"
+                    android:layout_height="150dp">
+
+                    <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBar
+                        android:id="@+id/volumeBar"
+                        android:layout_width="100dp"
+                        android:layout_height="0dp"
+                        android:splitTrack="false"
+                        app:seekBarRotation="CW270"/>
+                </com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper>
+
+                <ImageView
+                    android:id="@+id/minus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/volumeBar"
+                    android:src="@drawable/minus" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:id="@+id/iv_fullscreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:clickable="true"
+            android:src="@drawable/ic_fullscreen_black_36dp" />
+
+    </RelativeLayout>
+</RelativeLayout>

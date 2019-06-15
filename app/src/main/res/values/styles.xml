@@ -1,0 +1,122 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <!-- <item name="android:windowShowWallpaper">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>-->
+    </style>
+
+
+    <!--Setting Login-->
+    <style name="AppTheme.Dark.Dialog" parent="Theme.AppCompat.Dialog">
+        <item name="colorAccent">@color/colorwhite</item>
+        <item name="android:textColorPrimary">@color/colorgrey</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+
+    <style name="Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <!--<item name="android:windowContentOverlay">@null</item>-->
+        <!--  <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>-->
+        <!--   <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:minWidth" type="dimen">630dp</item>
+        <!--<item name="android:minHeight" type="dimen">100dp</item>-->
+
+    </style>
+
+    <style name="CustomDialog" parent="Dialog">
+        <item name="android:windowAnimationStyle">@style/CustomDialogAnimation</item>
+    </style>
+
+    <style name="CustomDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/anim_zoom_in</item>
+    </style>
+
+    <style name="CusomDialogStyle">
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:background">@drawable/dialogradius</item>
+    </style>
+
+    <style name="CusomDialogStyleBrownNews">
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:background">@drawable/dialogradiusbrownnews</item>
+    </style>
+
+    <style name="CusomDialogStyleWhiteNews">
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:background">@drawable/dialogradiuswhitenews</item>
+    </style>
+
+    <style name="CusomDialogStyleWhite">
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:background">@drawable/dialogradiuswhite</item>
+    </style>
+
+    <!--To remove the gap from the instant image and uppper view thats why the padding from top is 0-->
+    <style name="CusomDialogStyleWhiteinstant">
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:background">@drawable/dialogradiuswhiteinstant</item>
+    </style>
+
+    <style name="CusomDialogStyleHappyBlue">
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:background">@drawable/dialogradiusinstantblue</item>
+    </style>
+
+    <style name="BaseToolbar">
+        <item name="android:background">?colorPrimary</item>
+        <item name="android:elevation" tools:targetApi="lollipop">4dp</item>
+    </style>
+
+    <style name="pin_button">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:clickable">false</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:focusable">false</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:background">@color/colorwhite</item>
+    </style>
+
+    <style name="ToolbarTextAppearance" parent="@android:style/TextAppearance.Medium">>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AlertBox" parent="android:Theme.Holo" />
+
+    //For GifView Declaration
+
+    <style name="Widget.GifView" parent="@android:style/Widget" />
+</resources>

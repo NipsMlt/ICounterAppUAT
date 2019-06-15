@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newsbackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/gridview"
+            android:layout_gravity="right"
+            android:background="@color/colorwhite"
+            android:clickable="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:alpha="0.8"
+            android:drawableLeft="@drawable/ic_keyboard_arrow_left_grey_800_18dp"
+            android:text="Back" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select the news"
+                android:textColor="@color/colorblack"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="0dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+
+            <ImageView
+                android:id="@+id/iv_gulf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/gulfnews" />
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="11dp" />
+
+            <ImageView
+                android:id="@+id/iv_khaleej"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/khaleejnews" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

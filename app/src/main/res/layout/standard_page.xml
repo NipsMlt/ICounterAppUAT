@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="210dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btnClearLog"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:text="Clear Log"/>
+
+                <Button
+                    android:id="@+id/btnSaveLog"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:text="Save Log"/>
+
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/cmdList"
+                android:minHeight="32px"
+                android:layout_width="match_parent"
+                android:layout_height="150dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/cmdLog"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:scrollbars="vertical"
+            android:layout_gravity="left|center_vertical"
+            android:background="@drawable/back"
+            android:enabled="true" android:textColor="#000000"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.roger.gifloadinglibrary:gifloadinglibrary:1.0.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/gifloadinglibrary-1.0.0.aar/0cefa4d8f925de59adb23cf16a5bc1d2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/gifloadinglibrary-1.0.0.aar/0cefa4d8f925de59adb23cf16a5bc1d2/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.roger.gifloadinglibrary/gifloadinglibrary/1.0.0/2c2de1a657cb41371f19ba443a216c9a49be38d0/gifloadinglibrary-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

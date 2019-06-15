@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingEnd="20dp"
+    android:paddingStart="20dp">
+
+    <LinearLayout
+        style="@style/CusomDialogStyleWhite"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            style="@style/CusomDialogStyleBrownNews"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                style="@style/CusomDialogStyleWhiteinstant"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <include
+                    android:id="@+id/layout_happyscreenthankyou"
+                    layout="@layout/happyscreenfragmentthankyouscreen"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone"></include>
+
+                <include
+                    android:id="@+id/layout_happyscreenselection"
+                    layout="@layout/happyscreenselection"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone"></include>
+
+                <LinearLayout
+                    android:id="@+id/llhappyscreenmain"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <RelativeLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="0dp">
+
+                                    <ImageView
+                                        android:id="@+id/iv_closehappydlgmain"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentRight="true"
+                                        android:src="@drawable/ic_close_blue_500_36dp" />
+
+                                </RelativeLayout>
+
+                            </RelativeLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="How was your experience?"
+                                    android:textColor="#2C364D"
+                                    android:textSize="30sp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="20dp"
+                                android:gravity="center">
+
+                                <ImageView
+                                    android:id="@+id/iv_happymain"
+                                    android:layout_width="150dp"
+                                    android:layout_height="150dp"
+                                    android:clickable="true"
+                                    android:src="@drawable/happinessmeterhappy" />
+
+                                <android.support.v4.widget.Space
+                                    android:layout_width="20dp"
+                                    android:layout_height="0dp" />
+
+                                <ImageView
+                                    android:id="@+id/iv_normalmain"
+                                    android:layout_width="150dp"
+                                    android:layout_height="150dp"
+                                    android:clickable="true"
+                                    android:src="@drawable/happinessmeterneutral" />
+
+                                <android.support.v4.widget.Space
+                                    android:layout_width="20dp"
+                                    android:layout_height="0dp" />
+
+                                <ImageView
+                                    android:id="@+id/iv_sadmain"
+                                    android:layout_width="150dp"
+                                    android:layout_height="150dp"
+                                    android:clickable="true"
+                                    android:src="@drawable/happinessmetersad" />
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
